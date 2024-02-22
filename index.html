@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  autocomplete="on">
+        <label for="uname">uname</label>
+        <input type="text" id="uname" name="uname"/>
+        <input type="submit"/><br><br>
+        <input type="checkbox" id="html"name="skill_1"value="html" checked/>
+        <label for="html">html</label>
+        <input type="checkbox" id="css"name="skill_2"value="html"/>
+        <label for="css">css</label>
+        <input type="submit"/>
+
+        <p>select color</p>
+        <label for="clrs">colors:</label>
+        <select name="fav_color"id="clrs" size="3">
+            <option value="white color">white</option>
+            <option value="red color">red</option>
+            <option value="black clor">black</option>
+            <input type="submit"/><br><br>
+        </select>
+        <input type="email"/>
+        <input type="submit"/><br><br>
+        <input type="text" autocomplete="on" name="uname"/>
+        <input type="submit"/><br><br>
+
+        <input list="colors"/>
+
+        <datalist id="skills">
+            <options >html</options>
+            <options>css</options>
+            <options>js</options>
+            <options>angular</options>
+        </datalist>
+        <input type="submit"/>
+        <datalist id="colors">
+            <option>white</option>
+            <option>black</option>
+            <option>red</option>
+        </datalist><br><br>
+        <input type="file" multiple/>
+        <input type="submit"/><br>
+
+        <form method="get"><br>
+
+            <input type="text" name="uname"/>
+            <input type="text" name="scname"/>
+        </form>
+        <br>
+        <input type="submit"/><br><br>
+
+        <form action="./login.html">
+
+            <input type="text" name="uname"/>
+            <input type="text" name="scname"/>
+        <input type="submit"/>
+        </form>
+        
+
+        
+    </form>
+</body>
+</html> 
